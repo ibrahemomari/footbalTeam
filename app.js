@@ -36,8 +36,7 @@
 // {
 //   count+=1;
 // }
-=======
->>>>>>> f8a5b04490a94dc1ddfda62adf7e224b69ae74e3
+
 
 // console.log(count);
 
@@ -138,4 +137,4 @@ for(var i=0 ; i<numOfLogoImages; i++)
 
 }
 document.write('<br><br><h3> the number of barcelona logo image is :'+numOfLogoImages+'</h3>');
->>>>>>> f8a5b04490a94dc1ddfda62adf7e224b69ae74e3
+
