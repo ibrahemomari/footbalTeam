@@ -1,0 +1,77 @@
+header
+{
+  background-color: #EB3126;
+}
+
+h1
+{
+  color:white;
+  text-align: center;
+  font-family: cursive;
+}
+
+nav ul 
+{
+  text-align: center
+}
+nav ul li 
+{
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+  color: blue;
+  font-family: cursive;
+  text-shadow: 0 0 8px white,
+  0 0 2px white;
+}
+nav ul li a
+{
+ text-decoration: none;
+}
+
+main
+{
+  text-align: center;
+
+}
+
+main article p 
+{
+  background-color: rgba(161, 160, 160, 0.158);
+  border-radius: 20px; 
+}
+main article a 
+{
+  text-decoration: none;
+  font-size: 15px;
+  color:rgb(0, 0, 0);
+  text-shadow: 4px 4px 3px red;
+ }
+
+ footer 
+ {
+   margin-top: 20px;
+   background-color: rgba(0, 0, 0, 0.836);
+   color:white;
+   height: 100px;
+   text-align: left;
+   padding: 20px;
+
+ }
+  footer img 
+  {
+    width: 50px;
+    float: right;
+  }
+
+  label
+  {
+    color:#EB3126;
+    font-size: 10px
+  }
+  #barcaLogo 
+  {
+    box-shadow: 0 0 4px blue;
+    border-radius:50%; 
+  }
+
