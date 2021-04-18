@@ -19,7 +19,7 @@
 // {
 //   alert('you dont enter a valid value')
 // }
-<<<<<<< HEAD
+
 
 
 // if (Qus1==='messi')
@@ -40,7 +40,7 @@
 
 // console.log(count);
 
-<<<<<<< HEAD
+
 // if(answer==='yes')
 // {
 //   document.write('<img src="https://media0.giphy.com/media/26xBPeMW9T3PT6Bu8/giphy.gif">')
@@ -86,7 +86,7 @@ document.write('<br><br><h3> the number of barcelona logo image is :'+numOfLogoI
 }
 
 showImages();
-=======
+
 // if (Qus1==='messi')
 // {
 //   count=1;
