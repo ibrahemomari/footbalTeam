@@ -38,6 +38,7 @@
 // }
 
 
+
 // console.log(count);
 
 
@@ -50,12 +51,40 @@
 // }
 
 
+
+// if (Qus1==='messi')
+// {
+//   count=1;
+// }
+
+// if(Qus2==='red and blue')
+// {
+//   count+=1;
+// }
+
+// if (Qus3==='campno')
+// {
+//   count+=1;
+// }
+
+// console.log(count);
+
+// if(answer==='yes')
+// {
+//   document.write('<img src="https://media0.giphy.com/media/26xBPeMW9T3PT6Bu8/giphy.gif">')
+//   document.write('<h1>'+'Your great for trying to answer '+'</h1>');
+
+//   document.write('<h1>'+'your score is :'+count+'/3'+'</h1>')
+// }
+
+
+
 var numOfLogoImages;
 var baraLogo=prompt("First of all you must see the Logo of barcelona football team , sorry (-_-) !! \n enter yes to continue");
 
 var user = function ()
 {
-while (baraLogo != 'yes' || baraLogo !='Yes')
+while (baraLogo != 'yes' && baraLogo !='Yes')
 {
   baraLogo= prompt("are you kidding me !!\n Enter yes or close the browser (*^*)");
 }
@@ -87,48 +116,7 @@ document.write('<br><br><h3> the number of barcelona logo image is :'+numOfLogoI
 
 showImages();
 
-// if (Qus1==='messi')
-// {
-//   count=1;
-// }
 
-// if(Qus2==='red and blue')
-// {
-//   count+=1;
-// }
-
-// if (Qus3==='campno')
-// {
-//   count+=1;
-// }
-
-// console.log(count);
-
-// if(answer==='yes')
-// {
-//   document.write('<img src="https://media0.giphy.com/media/26xBPeMW9T3PT6Bu8/giphy.gif">')
-//   document.write('<h1>'+'Your great for trying to answer '+'</h1>');
-
-//   document.write('<h1>'+'your score is :'+count+'/3'+'</h1>')
-// }
-
-var numOfLogoImages;
-var baraLogo=prompt("First of all you must see the Logo of barcelona football team , sorry (-_-) !! \n enter yes to continue");
-
-while (baraLogo !== 'yes' && baraLogo !=='Yes')
-{
-  baraLogo= prompt("are you kidding me !!\n Enter yes or close the browser (*^*)");
-}
-
-if (baraLogo==='yes')
-{
-  numOfLogoImages = prompt('how many barcelona log image do you want to see ??');
-
-  while(numOfLogoImages==0)
-  {
-    numOfLogoImages = prompt('are you kidding me agin !!\n reinter the valid number !');
-  }
-}
 
 for(var i=0 ; i<numOfLogoImages; i++)
 {
@@ -136,5 +124,5 @@ for(var i=0 ; i<numOfLogoImages; i++)
   document.write('<lable for="img">'+(i+1)+'</lable>');
 
 }
-document.write('<br><br><h3> the number of barcelona logo image is :'+numOfLogoImages+'</h3>');
+
 
